@@ -1,2 +1,4 @@
+version: 93a9304de5c2bfd83afe849015b46851
 permalink: pretty
+
 exclude: [ "vendor" ]
