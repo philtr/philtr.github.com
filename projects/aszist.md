@@ -1,7 +1,7 @@
 ---
 type: project
 title: Aszist
-link: https://philtr.github.io/aszist/
+link: http://philtr.github.io/aszist/
 summary: Email-based helpdesk support system.
 ---
 
