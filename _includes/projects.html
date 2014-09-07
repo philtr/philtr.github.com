@@ -1,11 +1,9 @@
 <div class="row">
-{% for project in site.pages %}
-  {% if project.type == "project" %}
-    <div class="col-lg-4 col-md-6">
-      <p><a href="{{ project.link }}"><img src="/img/{{ project.url }}preview.png?{{ site.version }}" class="img-thumbnail img-responsive" /></a></p>
-      <h3><a href="{{ project.link }}">{{ project.title | handleize }}</a></h3>
-      <p>{{ project.summary }}</p>
-    </div>
-  {% endif %}
+{% for project in site.projects %}
+  <div class="col-lg-4 col-md-6">
+    <p><a href="{{ project.link }}"><img src="/img/{{ project.relative_path | remove_first:"_" | remove_first,".md"  }}/preview.png?{{ site.version }}" class="img-thumbnail img-responsive" /></a></p>
+    <h3><a href="{{ project.link }}">{{ project.title }}</a></h3>
+    <p>{{ project.summary }}</p>
+  </div>
 {% endfor %}
 </div>

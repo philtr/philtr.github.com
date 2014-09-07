@@ -1,4 +1,7 @@
-version: 93a9304de5c2bfd83afe849015b46851
+version: cc60451f380bd6f0a3a98c35ddaffc5d
 permalink: pretty
+
+collections:
+  - projects
 
 exclude: [ "vendor" ]
