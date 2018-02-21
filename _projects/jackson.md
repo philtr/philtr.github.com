@@ -1,6 +1,6 @@
 ---
 title: Jackson
-link: http://jacksonisthere.com/
+link: https://github.com/philtr/jackson
 summary: Event RSVP system, like Plancast but not broken.
 ---
 
